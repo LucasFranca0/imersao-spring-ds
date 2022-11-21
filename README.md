@@ -1,24 +1,31 @@
 # <img align="center" alt="Lucas-Spring" height="90" width="85" src="https://cdn.jsdelivr.net/gh/devicons/devicon/icons/spring/spring-original-wordmark.svg" /> Imersão Spring - Dev Superior
 > 
-
-## Realização
-[DevSuperior - Escola de programação](https://devsuperior.com.br)
+Aplicação desenvolvida durante a Imersão de Spring,
+[DevSuperior - Escola de programação](https://devsuperior.com.br). Sensacional a didática e a riqueza de conteúdo!  
 
 [![DevSuperior no Instagram](https://raw.githubusercontent.com/devsuperior/bds-assets/main/ds/ig-icon.png)](https://instagram.com/devsuperior.ig)
 [![DevSuperior no Youtube](https://raw.githubusercontent.com/devsuperior/bds-assets/main/ds/yt-icon.png)](https://youtube.com/devsuperior)
 
-## Objetivos do projeto para esta aula
-- Implementar o back end
-- Acesso a banco de dados
-- Criar endpoints da API REST
-- Integração com SMS
-- Implantação na nuvem
-
 ## Checklist
+- [x] Acesso a banco de dados
+- [x] Criar endpoints da API REST
+- [x] Integração com SMS
+
+## Funcionalidades
+- [x] Buscar venda pelo ID
+- [x] Buscar todas as vendas
+- [x] Paginação
+- [x] Envio de SMS 
+- [ ] Post
+- [ ] Deletar pelo ID
 
 ## Ferramentas
 
 - Postman (Vídeo: https://youtu.be/CWKLVapcnCU )
+
+### Documentação Postman
+
+[Clique aqui](https://documenter.getpostman.com/view/23628011/2s8YmSsLQx)
 
 ## Passo: configuração de segurança
 
@@ -269,8 +276,5 @@ public class SmsService {
 		System.out.println(message.getSid());
 	}
 }
+```
 
-
-### Documentação Postman
-
-![[Clique aqui](https://documenter.getpostman.com/view/23628011/2s8YmSsLQx)
