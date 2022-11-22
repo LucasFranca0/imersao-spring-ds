@@ -1,7 +1,7 @@
 # <img align="center" alt="Lucas-Spring" height="90" width="85" src="https://cdn.jsdelivr.net/gh/devicons/devicon/icons/spring/spring-original-wordmark.svg" /> Imersão Spring - Dev Superior
 > 
 Aplicação desenvolvida durante a Imersão de Spring,
-[DevSuperior - Escola de programação](https://devsuperior.com.br). Sensacional a didática e a riqueza de conteúdo!  
+[DevSuperior - Escola de programação](https://devsuperior.com.br). Sensacional a didática e a riqueza de conteúdo! Pensando em potencializar mais meu aprendizado, inseri os métodos CRUD: POST, PUT e DELETE para deixar a aplicação mais completa. Também alterei o banco dados H2 pelo MySQL e inseri mais endpoints.
 
 [![DevSuperior no Instagram](https://raw.githubusercontent.com/devsuperior/bds-assets/main/ds/ig-icon.png)](https://instagram.com/devsuperior.ig)
 [![DevSuperior no Youtube](https://raw.githubusercontent.com/devsuperior/bds-assets/main/ds/yt-icon.png)](https://youtube.com/devsuperior)
