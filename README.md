@@ -16,8 +16,9 @@ Aplicação desenvolvida durante a Imersão de Spring,
 - [x] Buscar todas as vendas
 - [x] Paginação
 - [x] Envio de SMS 
-- [ ] Post
-- [ ] Deletar pelo ID
+- [x] Inserir vendas
+- [x] Deletar pelo ID
+- [x] Alterar pelo ID
 
 ## Ferramentas
 
