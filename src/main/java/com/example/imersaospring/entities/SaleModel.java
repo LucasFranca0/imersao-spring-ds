@@ -1,7 +1,6 @@
 package com.example.imersaospring.entities;
 
 import lombok.Getter;
-import lombok.NoArgsConstructor;
 import lombok.Setter;
 
 
@@ -10,17 +9,19 @@ import java.time.LocalDate;
 
 @Getter
 @Setter
-@NoArgsConstructor
-@Entity
-@Table(name = "tb_sales")
-public class Sale {
+@Entity(name = "tb_sales")
+public class SaleModel {
 
     @Id
     @GeneratedValue(strategy = GenerationType.IDENTITY)
     private Long id;
+    @Column(nullable = false)
     private String sellerName;
+    @Column(nullable = false)
     private Integer visited;
+    @Column(nullable = false)
     private Integer deals;
+    @Column(nullable = false)
     private Double amount;
     private LocalDate date;
 

@@ -1,6 +1,6 @@
 package com.example.imersaospring.services;
 
-import com.example.imersaospring.entities.Sale;
+import com.example.imersaospring.entities.SaleModel;
 import com.example.imersaospring.repositories.SaleRepository;
 import com.twilio.Twilio;
 import com.twilio.rest.api.v2010.account.Message;
@@ -34,7 +34,7 @@ public class SmsService {
     // Abaixo colocamos o argumento id dentro do sendSms() para podermos buscar pelo id
     public void sendSms(Long saleId) {
 
-        Sale sale = saleRepository.findById(saleId).get();
+        SaleModel sale = saleRepository.findById(saleId).get();
 
         // Formato date
         String date = sale.getDate().getMonthValue() + "/" + sale.getDate().getYear();
